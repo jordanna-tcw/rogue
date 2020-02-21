@@ -672,6 +672,11 @@ input[type=button] {
     font-size: 1.5em;
   }
 
+  .map figure {
+    padding-bottom: 50%; 
+  }
+  
+
 
     /* ==========================================================================
      FAQ Page
@@ -772,12 +777,16 @@ input[type=button] {
   ========================================================================== */
    .mission h2,
    .contact-section .content-wrapper h2 {
-       width: 95%;
+       width: 37.5%;
        font-size: 3em;
    }
 
    .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 75%; 
   }
 
 /* ==========================================================================
