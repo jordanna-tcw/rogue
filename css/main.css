@@ -241,9 +241,18 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #4c7b55;
+  border-radius: 50%;
   display: flex;
+  height: 40px;
   justify-content: center;
   align-items: center;
+  width: 40px;
+}
+
+.social-icons i {
+  font-size: 1.25em;
+  width: 100%;
 }
 
 footer .content-wrapper {
@@ -278,6 +287,9 @@ aside {
 
 /*Features*/
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -302,6 +314,11 @@ aside {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /*Reviews*/
@@ -758,11 +775,6 @@ input[type=button] {
    .features article {
        flex-basis: 33%;
    }
-
-   .features i {
-    font-size: 3.75em;
-          margin-bottom: 40px;
-  }
 
    /* Reviews */ 
    .reviews article div {
