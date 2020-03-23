@@ -114,6 +114,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -185,7 +187,6 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
-  margin: 0 25px;
 }
 
 /*BASE HEADER AND FOOTER STYLES*/
@@ -355,6 +356,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-content h4 {
+  margin: 7.5px 0;
 }
 
 .contact-content p {
@@ -542,7 +547,7 @@ input[type=button] {
         font-size: 1.5em;
         line-height: 1.25;
     }
-   
+    
       /* Header */
    
       header {
@@ -588,7 +593,7 @@ input[type=button] {
    
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {        
-          width: 40%;        
+          width: 45%;        
           margin: 0;
       }
    
@@ -641,6 +646,7 @@ input[type=button] {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
+        width: 100%;
       }
    
       footer .contact {
@@ -659,6 +665,12 @@ input[type=button] {
       footer p {
         line-height: 1.285;
     }
+
+    .social-icons {
+      width: 15em;
+      justify-content: space-between;
+    }
+   
 
     /* ==========================================================================
    About Page
@@ -794,7 +806,8 @@ input[type=button] {
   ========================================================================== */
    .mission h2,
    .contact-section .content-wrapper h2 {
-       width: 37.5%;
+      margin: 0;
+       width: 95%;
        font-size: 3em;
    }
 
@@ -803,7 +816,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 75%; 
+    padding-bottom: 37.5%; 
   }
 
 /* ==========================================================================
